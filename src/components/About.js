@@ -9,13 +9,14 @@ const About = () => {
     <>
       <div>
         <div className="row">
-          <br />
+      
           <p className="main-title">
             {" "}
-            Hi, My name is Leon. Im a Full Stack Web Developer living in Cape
+            Hi, My name is Leon. I'm a Full Stack Web Developer living in Cape
             Town.{" "}
           </p>
         </div>
+        <img className="cup-image" src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png"></img>
         <Container>
           <Row>
             <Col className="blue light-4 white-text" s={3}>
@@ -32,7 +33,7 @@ const About = () => {
                 Full Stack web developer with extensive experience in supply
                 chain and manufacturing. Taking the years of experience in
                 meeting deadlines, finding solutions, solving problems and just
-                plain getting things done. And taking the same drive and passion
+                plain getting things done, taking that same drive and passion
                 into an exciting new Tech career.{" "}
               </p>
             </Col>
