@@ -18,8 +18,7 @@ const About = () => {
         </div>
         <Container>
           <Row>
-            <Col   className="blue light-4 white-text"
-    s={3}>
+            <Col className="blue light-4 white-text" s={3}>
               {" "}
               <p className="education-title">
                 {" "}
@@ -38,44 +37,45 @@ const About = () => {
               </p>
             </Col>
           </Row>
-        <Row>
-          <Col   className="blue light-4 white-text"
-    s={3}>
-          <h2 className="education-title">
-            Full Stack Web Developer Bootcamp - HyperionDev 2020
-          </h2>
-          </Col>
-          <Col s={9}>
-          <h3 className="about-parr">
-            {" "}
-            Field of study: Full Stack web Development with the M.E.R.N. stack{" "}
-          </h3>
-          <div className="about-parr">
-            <p className="about-parr">Specialization - Web Page, Digital/Multimedia and Information
-              Resources Design
-            </p>
-          </div>
-          </Col>
-          </Row>
-<Row>          <Col   className="blue light-4 white-text"
-    s={3}>
-          <h3 className="education-title">
-            Programme in Purchasing and Supply Management - UNISA 2015
-          </h3>
-          </Col> 
-          <Col s={9}>
-          <h3 className="about-parr">
-            Field of study: Purchasing, Procurement/Acquisitions and Contracts
-            Management{" "}
-          </h3>
-          <div className="about-parr">
-            <p className="about-parr">
-              Specialization - Procurement and Stock Control
-            </p>
-          </div>
+          <Row>
+            <Col className="blue light-4 white-text" s={3}>
+              <h2 className="education-title">
+                Full Stack Web Developer Bootcamp - HyperionDev 2020
+              </h2>
             </Col>
-            </Row>
-
+            <Col s={9}>
+              <h3 className="about-parr">
+                {" "}
+                Field of study: Full Stack web Development with the M.E.R.N.
+                stack{" "}
+              </h3>
+              <div className="about-parr">
+                <p className="about-parr">
+                  Specialization - Web Page, Digital/Multimedia and Information
+                  Resources Design
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            {" "}
+            <Col className="blue light-4 white-text" s={3}>
+              <h3 className="education-title">
+                Programme in Purchasing and Supply Management - UNISA 2015
+              </h3>
+            </Col>
+            <Col s={9}>
+              <h3 className="about-parr">
+                Field of study: Purchasing, Procurement/Acquisitions and
+                Contracts Management{" "}
+              </h3>
+              <div className="about-parr">
+                <p className="about-parr">
+                  Specialization - Procurement and Stock Control
+                </p>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </div>
     </>
