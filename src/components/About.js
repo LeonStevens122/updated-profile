@@ -9,14 +9,15 @@ const About = () => {
     <>
       <div>
         <div className="row">
-      
           <p className="main-title">
             {" "}
-            Hi, My name is Leon. I'm a Full Stack Web Developer living in Cape
-            Town.{" "}
+            Hi, My name is Leon. I'm a Full Stack Web Developer.{" "}
           </p>
         </div>
-        <img className="cup-image" src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png"></img>
+        <img
+          className="cup-image"
+          src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png"
+        ></img>
         <Container>
           <Row>
             <Col className="blue light-4 white-text" s={3}>
