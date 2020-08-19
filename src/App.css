@@ -4,6 +4,11 @@
   border: solid black 5px;
 }
 
+.portfolio-component {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 html,
 body {
   height: 100%;
@@ -11,7 +16,7 @@ body {
 
 .contacts {
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 body {
@@ -28,15 +33,16 @@ body {
 }
 
 .cup-image {
-    display: block;
-    margin-top: -3%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 12%;
-  }
+  display: block;
+  margin-top: -3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
 
 .projectStyle {
   color: black;
+  height: 400px;
 }
 .App-logo {
   height: 40vmin;
@@ -64,7 +70,7 @@ body {
   max-width: 90%;
   list-style: none;
   display: inline;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .EduPar {
@@ -2951,7 +2957,7 @@ video.responsive-video {
 .breadcrumb [class*="mdi-"],
 .breadcrumb i.material-icons {
   display: inline-block;
-  float: left;
+  float: none;
   font-size: 24px;
 }
 

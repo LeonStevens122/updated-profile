@@ -57,29 +57,21 @@ let Project7 = new projectObject(
   "https://raw.githubusercontent.com/LeonStevens122/React-Django-Full-Stack/master/LeadManager.PNG"
 );
 
-let projectList = [
-  Project1,
-  Project2,
-  Project3,
-  Project4,
-  Project5,
-  Project6,
-  Project7,
-];
+let projectList = [Project1, Project3, Project4, Project5, Project7];
 
 class Projects extends React.Component {
   render() {
     return (
-      <div>
+      <div className="portfolio-component">
         <h2>PORTFOLIO</h2>
         <Row>
           {/* loop through list of projects to create cards */}
 
           {projectList.map((currentProject, index) => {
             return (
-              <Col m={3} s={6}>
+              <Col m={4} s={6}>
                 <Card
-                  className="projectStyle"
+                  className="projectStyle h-100 align-items-stretch flex-fill d-flex"
                   actions={[
                     <a key="1" href={currentProject.link}>
                       {currentProject.title}
