@@ -25,7 +25,7 @@ let Project2 = new projectObject(
 let Project3 = new projectObject(
   "React Weather App",
   "Weather App, built using React.JS",
-  "https://github.com/LeonStevens122/React-Weather-App.git",
+  "https://leon-react-weather-app.herokuapp.com/",
   "https://raw.githubusercontent.com/LeonStevens122/React-Weather-App/master/public/screenshot.jpg"
 );
 
