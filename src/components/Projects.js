@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Row, Col, Icon, CardTitle } from "react-materialize";
 
+// Function creates projectObjects to be displayed
 function projectObject(title, description, link, image) {
   this.title = title;
   this.description = description;
@@ -8,6 +9,7 @@ function projectObject(title, description, link, image) {
   this.image = image;
 }
 
+// definition of projects to be added to array of projects which react will dieplay dynamically
 let Project1 = new projectObject(
   "Django Craigslist Viewer",
   "CraigsList Viewer - Built using Python, Django & Materialize",
@@ -57,6 +59,7 @@ let Project7 = new projectObject(
   "https://raw.githubusercontent.com/LeonStevens122/React-Django-Full-Stack/master/LeadManager.PNG"
 );
 
+// add projects to projectList
 let projectList = [Project1, Project3, Project4, Project5, Project7];
 
 class Projects extends React.Component {
