@@ -17,7 +17,7 @@ const About = () => {
         <img
           className="cup-image"
           src="https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png"
-          alt="image of a coffee cup with the text 'Talk <code /> to me' "
+          alt="coffee cup with the text 'Talk <code /> to me' "
         ></img>
         <Container>
           <Row>
